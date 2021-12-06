@@ -37,12 +37,9 @@ for(let i=0;i<9;i++){
 	card.classList.add('card')
    card.dataset.index=i
 	grid.appendChild(card)
-
-
-	
-
-
 }
+
+
 //create a array of cards created
 let cards=document.querySelectorAll('.card');
 cards.forEach((card,i)=>{
@@ -78,7 +75,7 @@ const finishGame=(array,index)=>{
 				}
 
 				showScoreX.textContent="X :"+scoreX
-                showScoreO.textContent="O :"+scoreO
+                                showScoreO.textContent="O :"+scoreO
 
 				setTimeout(()=>{
 					result.textContent=""
