@@ -3,4 +3,6 @@
  
  [demo](https://moeinnazari.github.io/tic_tac_toe/)
  ***
-<img src="https://github.com/moeinnazari/tic_tac_toe/blob/main/game.png" alt="game" width="30%">
+ <p align="center">
+ <img src="https://github.com/moeinnazari/tic_tac_toe/blob/main/game.png" alt="game" width="30%">
+</p>
