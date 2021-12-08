@@ -22,7 +22,6 @@ h1{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
 }
 .grid{
 	width: 310px;
@@ -30,7 +29,6 @@ h1{
 	text-align: center;
 	display: flex;
 	flex-wrap: wrap;
-	
 	justify-content: center;
 }
 .card{
@@ -45,7 +43,6 @@ h1{
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
-
 }
 .green{
 	background-color: #19B519;
@@ -80,17 +77,15 @@ h1{
 }
 .button1{
     top:200px;
-
 }
 .button2{
 	top: 310px;
 }
 .boundary{
 	position: absolute;
-	top: 150px;
+	top: 120px;
 	z-index: 2;
-	width: 320px;
-	height: 320px;
-	
+	width: 500px;
+	height: 400px;
 	background-color: rgba(220,219,219,0.5);
 }
