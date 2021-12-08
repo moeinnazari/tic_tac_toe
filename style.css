@@ -12,6 +12,7 @@ body{
 	min-height: 90vh;
 	font-family: 'Outfit', sans-serif;
 	background-color: #E1ECD1;
+	position: relative;
 }
 h1{
 	margin-bottom: 20px;
@@ -58,4 +59,38 @@ h1{
 	align-items: center;
 	font-size: 26px;
 
+}
+.button1,.button2{
+	width: 150px;
+	height: 60px;
+	position: absolute;
+	z-index: 5;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 9px;
+	transition: 0.3s ease-in-out 0.001s;
+	background-color: rgb(123,147,142);
+	
+}
+.button1:hover ,.button2:hover{
+	background-color: rgb(72,95,95);
+}
+.button1{
+    top:200px;
+
+}
+.button2{
+	top: 310px;
+}
+.boundary{
+	position: absolute;
+	top: 150px;
+	z-index: 2;
+	width: 320px;
+	height: 320px;
+	
+	background-color: rgba(220,219,219,0.5);
 }
